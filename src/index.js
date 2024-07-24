@@ -6,9 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { FlagProvider } from "@unleash/proxy-client-react";
 
 const config = {
-  url: "http://localhost:4242/api/frontend", // Your front-end API URL or the Unleash proxy's URL (https://<proxy-url>/proxy)
+  url: "https:/unleash.agraj.in/api/frontend", // Your front-end API URL or the Unleash proxy's URL (https://<proxy-url>/proxy)
   clientKey:
-    "*:development.da37f5cd73ca21c497d78cac927524607e3ef25f0747e551d259e042", // A client-side API token OR one of your proxy's designated client keys (previously known as proxy secrets)
+    "*:development.1450f9f1ff4a8810ca8f1efe4837be2b36170743b0aa2486e3b2c966", // A client-side API token OR one of your proxy's designated client keys (previously known as proxy secrets)
   refreshInterval: 15, // How often (in seconds) the client should poll the proxy for updates
   appName: "ab.agraj.in", // The name of your application. It's only used for identifying your application,
   environment: "development", // The environment your application is running in
