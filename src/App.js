@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<CardList cards={cards} text="A-page" />} />
-          <Route path="/Bpage" element={<Bpage />} />
+          {/* <Route path="/" element={<CardList cards={cards} text="A-page" />} /> */}
+          <Route path="/" element={<Bpage />} />
         </Routes>
         <Footer />
       </div>
