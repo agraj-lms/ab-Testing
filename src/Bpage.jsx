@@ -4,8 +4,8 @@ import { cards } from "./constant";
 import { useFlag, useVariant } from "@unleash/proxy-client-react";
 
 const Bpage = () => {
-  const enabled = useFlag("test.0");
-  const variant = useVariant("test.0");
+  const enabled = useFlag("test");
+  const variant = useVariant("test");
   console.log(variant);
 
   if (variant && variant.enabled && variant.name === "BlueButton") {
