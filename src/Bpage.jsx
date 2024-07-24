@@ -17,7 +17,7 @@ const Bpage = () => {
       </>
     );
   }
-  if (variant && variant.enabled && variant.name === "BlueButton") {
+  if (variant && variant.enabled && variant.name === "GreenButton") {
     return (
       <>
         <button style={{ background: "green", color: "white" }}>
