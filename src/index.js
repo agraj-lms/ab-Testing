@@ -10,7 +10,7 @@ const config = {
   clientKey:
     "*:development.da37f5cd73ca21c497d78cac927524607e3ef25f0747e551d259e042", // A client-side API token OR one of your proxy's designated client keys (previously known as proxy secrets)
   refreshInterval: 15, // How often (in seconds) the client should poll the proxy for updates
-  appName: "Default", // The name of your application. It's only used for identifying your application,
+  appName: "ab.agraj.in", // The name of your application. It's only used for identifying your application,
   environment: "development", // The environment your application is running in
 };
 
